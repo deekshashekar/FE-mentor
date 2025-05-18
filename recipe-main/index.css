@@ -1,0 +1,73 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: block;
+  background-color: hsl(30, 54%, 90%);
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: hsl(30, 18%, 87%);
+  margin: 50px 0px 50px 0px;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 700px;
+  padding: 30px;
+  align-items: flex-start;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.prep {
+  color: rgb(152, 34, 152);
+}
+
+.sub-head {
+  color: rgb(184, 57, 57);
+}
+
+.sub-section {
+  line-height: 2rem;
+}
+
+ol li::marker {
+  color: #844c3a;
+  font-family: "Fonte-1", sans-serif;
+  font-weight: bold;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.table tr {
+  border-bottom: 1px solid #ccc;
+}
